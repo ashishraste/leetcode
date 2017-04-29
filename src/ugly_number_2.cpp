@@ -74,7 +74,7 @@ public:
 };
 
 /**
- * @brief     Problem 264 - Ugly Number II.
+ * @brief     Problem 264 - Ugly Number II | https://leetcode.com/problems/ugly-number-ii/#/description
  */
 int main(int argc, char** argv) 
 {
