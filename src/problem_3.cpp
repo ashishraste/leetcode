@@ -18,8 +18,8 @@ public:
 			if (it == mc.cend()) {  // new character 
 				mc.emplace(str[i],i);
 			}
-			else {  // character already present, update the biggest_idx if required
-				if (it->second >= start) {   // update biggest_idx
+			else {  // character already present, update starting index if required
+				if (it->second >= start) {   // update starting index
 					high = max(high,i-start);
 					start = it->second + 1;
 				}
@@ -31,6 +31,10 @@ public:
 	}
 };
 
+/**
+ * @brief       Solution to Leetcode problem 3
+ * @details     URL : https://leetcode.com/problems/longest-substring-without-repeating-characters
+ */
 int main(int argc, char** argv)
 {
 	LongestSubstring* pls = new LongestSubstring();
