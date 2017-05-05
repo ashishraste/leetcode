@@ -1,4 +1,4 @@
 ### Leetcode
 ---
 
-Random solutions to exercises at [Leetcode](https://leetcode.com)
+Solutions to random problems at [Leetcode](https://leetcode.com) and at other online-judge websites.
