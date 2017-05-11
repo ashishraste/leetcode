@@ -3,13 +3,13 @@
 
 using namespace std;
 
-struct Node 
+typedef struct Node 
 {
   int num;
   int idx;
   Node* left;
   Node* right;
-};
+} Node ;
 
 /**
  * Class BinaryTree.

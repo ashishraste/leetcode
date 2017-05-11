@@ -12,7 +12,7 @@ public:
 	int lengthOfLongestSubstring(const string& str) {
 		map<char,int> mc;  // map of characters traversed
 		size_t high = 0;
-		size_t start = 0;
+		size_t start = 0;  // acts as a place-holder from where we can count non-repeated chars
 		for (int i=0; i < str.size(); ++i) {
 			auto it = mc.find(str[i]);
 			if (it == mc.cend()) {  // new character 
