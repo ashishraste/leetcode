@@ -21,6 +21,10 @@ public:
 	}
 };
 
+/**
+* @brief    Solution to Leetcode problem 190.
+* @details  URL : https://leetcode.com/problems/reverse-bits/#/description
+*/
 
 int main()
 {
