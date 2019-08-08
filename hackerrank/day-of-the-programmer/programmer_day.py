@@ -1,3 +1,5 @@
+# Problem Name: Day of the Programmer
+
 target_year_period = [1700, 2700]
 julian_years = [1700, 1917]
 gregorian_years = [1919, 2700]
@@ -20,7 +22,7 @@ class ProgrammerDay(object):
             return ''
 
         if year == transition_year:
-            return '26.09.2018'
+            return '26.09.1918'
 
         def leap_programmer_day(year):
             return '12.09.%s' % year
