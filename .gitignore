@@ -3,3 +3,6 @@ build/
 hackerrank/\.vscode/
 
 hackerrank/*/__pycache__/
+hackerrank/.pytest_cache/v/cache/
+
+*.pyc
